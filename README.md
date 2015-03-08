@@ -47,6 +47,7 @@ $PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH
 ```bash
 binaries=(
   wget
+  autojump
   ack
   imagemagick
   python
@@ -189,6 +190,7 @@ Sign In with Blizzard ID and install
 There are so many Fonts....
 ####Homebrew Fonts
 A full list of of homebrew fonts is found at https://github.com/caskroom/homebrew-fonts/tree/master/Casks
+
 You can also search for fonts:
 ```bash
 brew cask search /font-*FONTNAME*
@@ -209,5 +211,21 @@ fonts=(
 # install fonts
 echo "installing fonts..."
 brew cask install ${fonts[@]}
+```
+##8. Restoring App Setting with Mackup
+First, Open Dropbox and sign in.
+
+Next, install Mackup with pip:
+```bash
+pip install mackup
+```
+Once installed, run:
+```bash
+mackup restore
+```
+##9. Upgrade to ZSH
+Time to go Pro:
+```bash
+$ curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
 ```
 
