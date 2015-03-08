@@ -138,17 +138,18 @@ brew doctor
 Thanks to the Mac App Store & Adobe, not all apps can be installed via homebrew.
 ####Launch The Mac App Store:
 Sign in with you Apple ID to install
--xcode
--airmail
--screenflow 5
--better snap tool
--pages
--numbers
--keynote
--sketch 3
--twitter
--sip
--clear
+
++xcode
++airmail
++screenflow 5
++better snap tool
++pages
++numbers
++keynote
++sketch 3
++twitter
++sip
++clear
 
 ####Launch Creative Cloud:
 Sign In with your Adobe ID to install
