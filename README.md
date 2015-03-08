@@ -212,7 +212,12 @@ fonts=(
 echo "installing fonts..."
 brew cask install ${fonts[@]}
 ```
-##8. Restoring App Setting with Mackup
+##8. Upgrade to ZSH
+Time to go Pro:
+```bash
+$ curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
+```
+##9. Restoring App Settings with Mackup
 First, Open Dropbox and sign in.
 
 Next, install Mackup with pip:
@@ -223,9 +228,5 @@ Once installed, run:
 ```bash
 mackup restore
 ```
-##9. Upgrade to ZSH
-Time to go Pro:
-```bash
-$ curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
-```
+
 
