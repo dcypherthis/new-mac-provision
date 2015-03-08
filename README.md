@@ -152,14 +152,14 @@ Sign in with you Apple ID to install
 
 ####Launch Creative Cloud:
 Sign In with your Adobe ID to install
--Photoshop
--Illustrator
--Media Encoder
--Acrobat Pro
--Premeire
--Lightroom
--Fonts From Typekit
--Creative Cloud Files
+*Photoshop
+*Illustrator
+*Media Encoder
+*Acrobat Pro
+*Premeire
+*Lightroom
+*Fonts From Typekit
+*Creative Cloud Files
 
 ####Download Avocode:
 https://manager.avocode.com/downloads/
