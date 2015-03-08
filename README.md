@@ -38,7 +38,7 @@ brew tap homebrew/dupes
 brew install homebrew/dupes/grep
 ```
 
-###3.Update Your Path
+###3. Update Your Path
 ```bash
 $PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH
 ```
@@ -69,5 +69,63 @@ Once They have installed with their dependecies, run:
 ```bash
 brew cleanup
 ```
+###5. Installing Applications with Homebrew Cask
 
+First, get the caskroom:
+```bash
+brew install caskroom/cask/brew-cask
+```
+Then enable app versions:
+```bash
+brew tap caskroom/versions
+```
+Then install all the apps!
+```bash
+# Apps
+apps=(
+  alfred
+  adobe-creative-cloud
+  appcleaner
+  burn
+  codekit
+  dropbox
+  firefox
+  flash
+  fluid
+  flux
+  github
+  google-chrome
+  google-drive
+  hipchat
+  iterm2
+  macvim
+  mindnode-pro
+  quicklook-json
+  sketchup
+  skype
+  slack
+  spotify
+  steam
+  sublime-text3
+  teleport
+  tower
+  transmission
+  tunnelblick
+  vagrant
+  virtualbox
+)
 
+# Install apps to /Applications
+# Default is: /Users/$user/Applications
+echo "installing apps..."
+brew cask install --appdir="/Applications" ${apps[@]}
+```
+
+Homebrew symlinks apps by default, so to use alfred with your homebrew apps, you will need to run:
+```bash
+brew cask alfred link
+```
+Don't foget to brew doctor when you're done installing!
+```bash
+brew doctor
+```
