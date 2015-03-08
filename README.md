@@ -138,29 +138,27 @@ brew doctor
 Thanks to the Mac App Store & Adobe, not all apps can be installed via homebrew.
 ####Launch The Mac App Store:
 Sign in with you Apple ID to install
-
-+xcode
-+airmail
-+screenflow 5
-+better snap tool
-+pages
-+numbers
-+keynote
-+sketch 3
-+twitter
-+sip
-+clear
++ xcode
++ airmail
++ screenflow 5
++ better snap tool
++ pages
++ numbers
++ keynote
++ sketch 3
++ twitter
++ sip
++ clear
 
 ####Launch Creative Cloud:
 Sign In with your Adobe ID to install
-
-*Photoshop
-*Illustrator
-*Media Encoder
-*Acrobat Pro
-*Premeire
-*Lightroom
-*Fonts From Typekit
+* Photoshop
+* Illustrator
+* Media Encoder
+* Acrobat Pro
+* Premeire
+* Lightroom
+* Fonts From Typekit
 *Creative Cloud Files
 
 ####Download Avocode:
@@ -174,20 +172,15 @@ http://www.invisionapp.com/lsps-download
 
 ####Get Steam Games:
 Sign In with Steam ID and install
--Hearts of Iron 3
--Kerbal Space Program
--Tabletop Simulator
+- Hearts of Iron 3
+- Kerbal Space Program
+- Tabletop Simulator
 
 ####Get Origin Games:
 Sign In with Origin ID and install
--Sim City
+- Sim City
 
 ####Get Blizard Games:
 Sign In with Blizzard ID and install
--Diablo III
--Starcraft II
-
-
-
-
-
+- Diablo III
+- Starcraft II
