@@ -57,8 +57,6 @@ binaries=(
   tree
   git
   hubflow
-  cask
-  macvim
   archey
 )
 
@@ -83,25 +81,32 @@ Then install all the apps!
 ```bash
 # Apps
 apps=(
+  1password
   alfred
   adobe-creative-cloud
   appcleaner
   burn
   codekit
   dropbox
+  evernote
   firefox
   flash
   fluid
   flux
-  github
   google-chrome
   google-drive
   hipchat
+  invisionsync
   iterm2
+  keyboardcleantool
   macvim
   mindnode-pro
+  minecraft
+  origin
+  phpstorm
   quicklook-json
   sketchup
+  sketch-toolbox
   skype
   slack
   spotify
@@ -129,3 +134,58 @@ Don't foget to brew doctor when you're done installing!
 ```bash
 brew doctor
 ```
+###6. Installing Other Apps
+Thanks to the Mac App Store & Adobe, not all apps can be installed via homebrew.
+####Launch The Mac App Store:
+Sign in with you Apple ID to install
+-xcode
+-airmail
+-screenflow 5
+-better snap tool
+-pages
+-numbers
+-keynote
+-sketch 3
+-twitter
+-sip
+-clear
+
+####Launch Creative Cloud:
+Sign In with your Adobe ID to install
+-Photoshop
+-Illustrator
+-Media Encoder
+-Acrobat Pro
+-Premeire
+-Lightroom
+-Fonts From Typekit
+-Creative Cloud Files
+
+####Download Avocode:
+https://manager.avocode.com/downloads/
+-Get Avocode for MAc
+-Get The Photoshop Plugin
+-Get The Sketch Plugin
+
+####Get InvisionApp Liveshare:
+http://www.invisionapp.com/lsps-download
+
+####Get Steam Games:
+Sign In with Steam ID and install
+-Hearts of Iron 3
+-Kerbal Space Program
+-Tabletop Simulator
+
+####Get Origin Games:
+Sign In with Origin ID and install
+-Sim City
+
+####Get Blizard Games:
+Sign In with Blizzard ID and install
+-Diablo III
+-Starcraft II
+
+
+
+
+
