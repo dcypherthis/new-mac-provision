@@ -3,13 +3,13 @@ For OSX 10.10.2 Yosimite
 
 This repository containst the steps, scripts, and files necessary to set up and provision a new mac computer to my personal specifications.
 
-###Overview
+##Overview
 The default OSX install lacks many key binary utitlities and is rather clunky with many unecessary settings. Additionally, installing software can be a real time consuming process, and wrangling all those installations is a real chore.
 
 ##References
 Much of this guide is based on Lapwing Lab's guide for setting up you mac. It can be found at http://lapwinglabs.com/blog/hacker-guide-to-setting-up-your-mac.
 
-###1. Get Homebrew
+##1. Get Homebrew
 ```bash
 # Check for Homebrew,
 # Install if we don't have it
@@ -22,7 +22,7 @@ fi
 brew update
 ```
 
-###2. Update Unix Tools
+##2. Update Unix Tools
 ```bash
 # Install GNU core utilities (those that come with OS X are outdated)
 brew install coreutils
@@ -38,12 +38,12 @@ brew tap homebrew/dupes
 brew install homebrew/dupes/grep
 ```
 
-###3. Update Your Path
+##3. Update Your Path
 ```bash
 $PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH
 ```
 
-###4. Install Binaries with Homebrew
+##4. Install Binaries with Homebrew
 ```bash
 binaries=(
   wget
@@ -67,7 +67,7 @@ Once They have installed with their dependecies, run:
 ```bash
 brew cleanup
 ```
-###5. Installing Applications with Homebrew Cask
+##5. Installing Applications with Homebrew Cask
 
 First, get the caskroom:
 ```bash
@@ -134,7 +134,7 @@ Don't foget to brew doctor when you're done installing!
 ```bash
 brew doctor
 ```
-###6. Installing Other Apps
+##6. Installing Other Apps
 Thanks to the Mac App Store & Adobe, not all apps can be installed via homebrew.
 ####Launch The Mac App Store:
 Sign in with you Apple ID to install
@@ -184,3 +184,30 @@ Sign In with Origin ID and install
 Sign In with Blizzard ID and install
 - Diablo III
 - Starcraft II
+
+##7. Install Fonts
+There are so many Fonts....
+####Homebrew Fonts
+A full list of of homebrew fonts is found at https://github.com/caskroom/homebrew-fonts/tree/master/Casks
+You can also search for fonts:
+```bash
+brew cask search /font-*FONTNAME*
+```
+First, tap the font cask:
+```bash
+brew tap caskroom/fonts
+```
+Then install all the fonts:
+```bash
+# fonts
+fonts=(
+  font-m-plus
+  font-clear-sans
+  font-roboto
+)
+
+# install fonts
+echo "installing fonts..."
+brew cask install ${fonts[@]}
+```
+
