@@ -40,7 +40,7 @@ brew install homebrew/dupes/grep
 
 ##3. Update Your Path
 ```bash
-$PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH
+PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH
 ```
 
 ##4. Install Binaries with Homebrew
