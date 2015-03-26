@@ -59,6 +59,11 @@ binaries=(
   git
   hubflow
   archey
+  postgresql
+  mongodb
+  beanstalk
+  rbenv
+  
 )
 
 echo "installing binaries..."
