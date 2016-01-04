@@ -87,7 +87,7 @@ Then install all the apps!
 ```bash
 # Apps
 apps=(
-  1password
+  atom
   alfred
   adobe-creative-cloud
   appcleaner
@@ -96,9 +96,7 @@ apps=(
   dropbox
   evernote
   firefox
-  flash
   fluid
-  flux
   google-chrome
   google-drive
   hipchat
@@ -106,21 +104,16 @@ apps=(
   iterm2
   keyboardcleantool
   macvim
-  mindnode-pro
   minecraft
-  origin
-  phpstorm
   quicklook-json
+  sketch
   sketchup
   sketch-toolbox
   skype
   slack
   spotify
   steam
-  sublime-text3
-  teleport
   tower
-  transmission
   tunnelblick
   vagrant
   virtualbox
