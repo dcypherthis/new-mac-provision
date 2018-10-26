@@ -32,10 +32,6 @@ brew install findutils
 
 # Install Bash 4
 brew install bash
-
-# Install more recent versions of some OS X tools
-brew tap homebrew/dupes
-brew install homebrew/dupes/grep
 ```
 
 ##3. Update Your Path
@@ -101,7 +97,7 @@ binaries=(
   oniguruma
   python3
   watch
-	gnutls
+  gnutls
   jpeg
   libksba
   mongodb@3.4
