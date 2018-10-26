@@ -1,10 +1,10 @@
 #New Mac Provision
-For OSX 10.10.2 Yosimite
+For OSX 10.13.X High Sierra
 
-This repository containst the steps, scripts, and files necessary to set up and provision a new mac computer to my personal specifications.
+This repository contains the steps, scripts, and files necessary to set up and provision a new mac computer to my personal specifications.
 
 ##Overview
-The default OSX install lacks many key binary utitlities and is rather clunky with many unecessary settings. Additionally, installing software can be a real time consuming process, and wrangling all those installations is a real chore.
+The default OSX install lacks many key binary utils and is rather clunky with many unnecesary settings. Additionally, installing software can be a real time consuming process, and wrangling all those installations is a real chore.
 
 ##References
 Much of this guide is based on Lapwing Lab's guide for setting up you mac. It can be found at http://lapwinglabs.com/blog/hacker-guide-to-setting-up-your-mac.
@@ -46,24 +46,68 @@ PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH
 ##4. Install Binaries with Homebrew
 ```bash
 binaries=(
-  wget
-  autojump
   ack
-  imagemagick
-  python
+  freetype
+  go
+  jq
+  libmpc
+  mono
+  redis
+  wxmac
+  adns
+  gcc
+  grafana
+  mpfr
+  p11-kit
+  xz
+  awscli
+  gdbm
+  htop
+  libtasn1
   mysql
-  trash
-  node
-  nodebrew
-  tree
+  pcre2
+  scons
+  zsh-syntax-highlighting
+  boost
+  gettext
+  icu4c
+  libffi
+  libtiff
+  nettle
+  pinentry
+  sqlite
+  ckan
   git
-  hubflow
-  archey
+  imagemagick
+  libgcrypt
+  libtool
+  npth
   postgresql
-  mongodb
-  beanstalk
-  rbenv
-  
+  terraform
+  coreutils
+  gmp
+  influxdb
+  libgpg-error
+  libunistring
+  nvm
+  python
+  tmux
+  erlang
+  elixir
+  gnupg
+  isl
+  libidn2
+  libusb
+  oniguruma
+  python3
+  watch
+	gnutls
+  jpeg
+  libksba
+  mongodb@3.4
+  openssl
+  readline
+  wget
 )
 
 echo "installing binaries..."
